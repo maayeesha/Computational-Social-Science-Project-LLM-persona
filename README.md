@@ -90,8 +90,7 @@ Decision rule: H1 is YES only if the one-sided p-value is below 0.05 and the eff
 ## Known limitations and next steps
 
 1. **Cut-off replies.** About 70 replies were cut off by `max_tokens=10` before naming an emotion. A future run should use `max_tokens=30` for every condition, which means rerunning all calls after renaming `results/raw.jsonl`.
-2. **Hand-coding** of the parser and cue samples is still to be done.
-3. **Scope.** One small model and two countries; the full project should add more countries, a larger model and a new pre-registration, for example on whether the matching effect differs by country.
+2. **Scope.** One small model and two countries; the full project should add more countries, a larger model and a new pre-registration, for example on whether the matching effect differs by country.
 
 ## Testing without a model
 
