@@ -1,0 +1,98 @@
+{
+  "model": "llama3.2:3b",
+  "n_calls": 5280,
+  "accuracy_by_condition": {
+    "full": {
+      "accuracy": 64.39,
+      "se": 1.53,
+      "invalid_rate": 5.02,
+      "n": 1056
+    },
+    "length_matched": {
+      "accuracy": 62.31,
+      "se": 1.6,
+      "invalid_rate": 6.06,
+      "n": 1056
+    },
+    "matched": {
+      "accuracy": 64.11,
+      "se": 1.59,
+      "invalid_rate": 4.73,
+      "n": 1056
+    },
+    "mismatched": {
+      "accuracy": 62.5,
+      "se": 1.67,
+      "invalid_rate": 6.34,
+      "n": 1056
+    },
+    "none": {
+      "accuracy": 63.54,
+      "se": 1.55,
+      "invalid_rate": 5.97,
+      "n": 1056
+    }
+  },
+  "H1_nationality_matching": {
+    "effect_pp": 1.4720417568993285,
+    "p_one_sided": 0.01753261063861944,
+    "ci90_pp": [
+      0.32320509462355657,
+      2.6208784191751002
+    ],
+    "equivalence_rules_out_3pp": true,
+    "mcnemar_b_matched_only": 37,
+    "mcnemar_c_mismatched_only": 20,
+    "mcnemar_p_one_sided": 0.01657198389375272,
+    "n_stories": 1056,
+    "decision": "NO"
+  },
+  "H1_sensitivity_without_cue_stories": {
+    "effect_pp": 1.3332954610009653,
+    "p_one_sided": 0.024501547953845737,
+    "ci90_pp": [
+      0.21924732246596315,
+      2.4473435995359676
+    ],
+    "equivalence_rules_out_3pp": true,
+    "mcnemar_b_matched_only": 34,
+    "mcnemar_c_mismatched_only": 19,
+    "mcnemar_p_one_sided": 0.026719405268855523,
+    "n_stories": 1042,
+    "decision": "NO"
+  },
+  "H2_full_persona": {
+    "full_vs_matched_pp": 0.288461538461539,
+    "p_one_sided": 0.33117553230498586,
+    "full_vs_length_pp": 2.1153846153846025,
+    "p_full_vs_length": 0.005088277240178796,
+    "n_stories": 1040,
+    "decision": "NO"
+  },
+  "stereotype_diagnostic": {
+    "total_variation_vs_no_persona": {
+      "full | persona=Spain": 0.0779,
+      "full | persona=Zambia": 0.0599,
+      "length_matched | persona=Spain": 0.0663,
+      "length_matched | persona=Zambia": 0.0655,
+      "matched | persona=Spain": 0.0719,
+      "matched | persona=Zambia": 0.0636,
+      "mismatched | persona=Spain": 0.0572,
+      "mismatched | persona=Zambia": 0.0612
+    },
+    "label_distribution_no_persona": {
+      "joy": 0.136,
+      "fear": 0.153,
+      "anger": 0.114,
+      "sadness": 0.204,
+      "disgust": 0.089,
+      "shame": 0.175,
+      "guilt": 0.129
+    }
+  },
+  "matching_gain_by_ambiguity_pp": {
+    "no-persona wrong": 3.9,
+    "no-persona correct": 0.3
+  },
+  "validation": {}
+}

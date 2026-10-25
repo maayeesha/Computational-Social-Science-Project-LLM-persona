@@ -1,0 +1,24 @@
+[project]
+name = "css-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=5.1.0",
+    "huggingface-hub>=2.3.0",
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "nbconvert>=7.17.2",
+    "notebook>=7.6.3",
+    "openai>=3.37.0",
+    "pandas>=3.1.0",
+    "scipy>=1.18.1",
+    "statsmodels>=0.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]

@@ -1,0 +1,28 @@
+{
+  "source_file": "C:\\Users\\maaye\\.cache\\huggingface\\hub\\datasets--savalera--isear-from-original\\snapshots\\9741e2c3fc20757958c9b67ce61aa09016be6cd8\\original\\train-00000-of-00001.parquet",
+  "countries": [
+    "Zambia",
+    "Spain"
+  ],
+  "stories_per_country": {
+    "Spain": 435,
+    "Zambia": 621
+  },
+  "writers_per_country": {
+    "Spain": 78,
+    "Zambia": 110
+  },
+  "stories_total": 1056,
+  "writers_total": 188,
+  "full_persona_complete": 1040,
+  "cue_flagged": {
+    "Spain": 0,
+    "Zambia": 14
+  },
+  "mde_percentage_points": {
+    "discordance=0.1, icc=0.05": 2.69,
+    "discordance=0.1, icc=0.1": 2.93,
+    "discordance=0.2, icc=0.05": 3.8,
+    "discordance=0.2, icc=0.1": 4.14
+  }
+}

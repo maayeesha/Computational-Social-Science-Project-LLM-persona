@@ -1,0 +1,7 @@
+Case,Writer,Story,Writer's label,Neutral persona,Mismatched,Matched,Full persona,Length-matched
+Fixed by matching,Spain,When I pass an exam.,joy,joy ✓,fear ✗,joy ✓,joy ✓,joy ✓
+Fixed by matching,Zambia,My girlfriend had started going around with another boy.…,shame,sadness ✗,sadness ✗,shame ✓,shame ✓,sadness ✗
+Broken by matching,Spain,I had an argument with my mother because I criticized the…,anger,anger ✓,anger ✓,invalid ✗,anger ✓,guilt ✗
+Broken by matching,Zambia,When I heard that my sister had shouted at my friend's…,disgust,disgust ✓,disgust ✓,anger ✗,anger ✗,anger ✗
+Same answer,Spain,"When I was a child, one day, I was going home late at night…",fear,fear ✓,fear ✓,fear ✓,fear ✓,fear ✓
+Same answer,Zambia,When I learnt that my brother-in-law had been poisoned by…,sadness,sadness ✓,sadness ✓,sadness ✓,sadness ✓,sadness ✓
