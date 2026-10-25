@@ -9,7 +9,6 @@ This project tests whether telling an LLM the real nationality of the person who
 | `01_prepare_data.ipynb` | Downloads ISEAR, cleans it, picks the two countries, builds personas, flags nationality cues, computes power |
 | `02_run_experiment.ipynb` | Runs every story under the five personas and saves the raw replies |
 | `03_analyze.ipynb` | Pre-registered tests, diagnostics, validation and all figures |
-| `preregistration.md` | The decision rules, written before the run |
 | `data/` | Story table, data summary and the cue sample for hand-coding |
 | `results/` | Raw replies (`raw.jsonl`), `summary.json`, validation files and `figures/` |
 
