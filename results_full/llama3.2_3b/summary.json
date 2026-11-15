@@ -1,0 +1,148 @@
+{
+  "model": "llama3.2:3b",
+  "n_calls": 38599,
+  "accuracy_by_condition": {
+    "full": {
+      "accuracy": 68.14,
+      "se": 0.64,
+      "invalid_rate": 2.65,
+      "n": 5508
+    },
+    "length_matched": {
+      "accuracy": 66.47,
+      "se": 0.65,
+      "invalid_rate": 5.01,
+      "n": 5508
+    },
+    "matched": {
+      "accuracy": 67.9,
+      "se": 0.65,
+      "invalid_rate": 3.25,
+      "n": 5508
+    },
+    "mismatched": {
+      "accuracy": 67.68,
+      "se": 0.64,
+      "invalid_rate": 3.67,
+      "n": 16567
+    },
+    "none": {
+      "accuracy": 67.16,
+      "se": 0.66,
+      "invalid_rate": 5.08,
+      "n": 5508
+    }
+  },
+  "H1_nationality_matching": {
+    "effect_pp": 0.1778119227283742,
+    "p_one_sided": 0.2250189130683643,
+    "ci90_pp": [
+      -0.20939112858311937,
+      0.5650149740398678
+    ],
+    "equivalence_rules_out_3pp": true,
+    "mcnemar_b_matched_only": 142,
+    "mcnemar_c_mismatched_only": 128,
+    "mcnemar_p_one_sided": 0.2144538573530801,
+    "n_stories": 5508,
+    "decision": "NO"
+  },
+  "H1_sensitivity_without_cue_stories": {
+    "effect_pp": -0.1583174102175886,
+    "p_one_sided": 0.7578189985886716,
+    "ci90_pp": [
+      -0.5307004191640562,
+      0.21406559872887898
+    ],
+    "equivalence_rules_out_3pp": true,
+    "mcnemar_b_matched_only": 123,
+    "mcnemar_c_mismatched_only": 125,
+    "mcnemar_p_one_sided": 0.5755170903772947,
+    "n_stories": 5369,
+    "decision": "NO"
+  },
+  "H2_full_persona": {
+    "full_vs_matched_pp": 0.18378974453225594,
+    "p_one_sided": 0.2668970559625452,
+    "full_vs_length_pp": 1.6357287263370712,
+    "p_full_vs_length": 7.207682948262573e-07,
+    "n_stories": 5441,
+    "decision": "NO"
+  },
+  "stereotype_diagnostic": {
+    "total_variation_vs_no_persona": {
+      "full | persona=Australia": 0.0513,
+      "full | persona=Austria": 0.0765,
+      "full | persona=Brazil": 0.0432,
+      "full | persona=Bulgaria": 0.0288,
+      "full | persona=China": 0.0833,
+      "full | persona=Finland": 0.0553,
+      "full | persona=India": 0.068,
+      "full | persona=Malawi": 0.0686,
+      "full | persona=New Zealand": 0.0682,
+      "full | persona=Spain": 0.0925,
+      "full | persona=Sweden": 0.0922,
+      "full | persona=Zambia": 0.0514,
+      "full | persona=the Netherlands": 0.067,
+      "full | persona=the United States": 0.1259,
+      "length_matched | persona=Australia": 0.0738,
+      "length_matched | persona=Austria": 0.068,
+      "length_matched | persona=Brazil": 0.0354,
+      "length_matched | persona=Bulgaria": 0.0367,
+      "length_matched | persona=China": 0.1077,
+      "length_matched | persona=Finland": 0.0494,
+      "length_matched | persona=India": 0.0851,
+      "length_matched | persona=Malawi": 0.0514,
+      "length_matched | persona=New Zealand": 0.1025,
+      "length_matched | persona=Spain": 0.092,
+      "length_matched | persona=Sweden": 0.0858,
+      "length_matched | persona=Zambia": 0.0729,
+      "length_matched | persona=the Netherlands": 0.0635,
+      "length_matched | persona=the United States": 0.1199,
+      "matched | persona=Australia": 0.0669,
+      "matched | persona=Austria": 0.0652,
+      "matched | persona=Brazil": 0.0393,
+      "matched | persona=Bulgaria": 0.035,
+      "matched | persona=China": 0.1117,
+      "matched | persona=Finland": 0.0295,
+      "matched | persona=India": 0.0887,
+      "matched | persona=Malawi": 0.0516,
+      "matched | persona=New Zealand": 0.1064,
+      "matched | persona=Spain": 0.0901,
+      "matched | persona=Sweden": 0.1037,
+      "matched | persona=Zambia": 0.0725,
+      "matched | persona=the Netherlands": 0.0602,
+      "matched | persona=the United States": 0.102,
+      "mismatched | persona=Australia": 0.0483,
+      "mismatched | persona=Austria": 0.0304,
+      "mismatched | persona=Brazil": 0.0376,
+      "mismatched | persona=Bulgaria": 0.0352,
+      "mismatched | persona=China": 0.033,
+      "mismatched | persona=Finland": 0.0504,
+      "mismatched | persona=India": 0.0282,
+      "mismatched | persona=Malawi": 0.041,
+      "mismatched | persona=New Zealand": 0.0283,
+      "mismatched | persona=Spain": 0.0345,
+      "mismatched | persona=Sweden": 0.0257,
+      "mismatched | persona=Zambia": 0.0343,
+      "mismatched | persona=the Netherlands": 0.0544,
+      "mismatched | persona=the United States": 0.0358
+    },
+    "label_distribution_no_persona": {
+      "joy": 0.136,
+      "fear": 0.143,
+      "anger": 0.131,
+      "sadness": 0.198,
+      "disgust": 0.087,
+      "shame": 0.153,
+      "guilt": 0.152
+    }
+  },
+  "matching_gain_by_ambiguity_pp": {
+    "no-persona wrong": 0.54,
+    "no-persona correct": 0.05
+  },
+  "validation": {
+    "parser": "exported 150 outputs to hand-code in validation_parser_sample.csv"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source_file": "huggingface:savalera/isear-from-original/original",
+  "countries": [
+    "Zambia",
+    "China"
+  ],
+  "stories_per_country": {
+    "China": 553,
+    "Zambia": 770
+  },
+  "writers_per_country": {
+    "China": 79,
+    "Zambia": 110
+  },
+  "stories_total": 1323,
+  "writers_total": 189,
+  "full_persona_complete": 1302,
+  "cue_flagged": {
+    "China": 40,
+    "Zambia": 19
+  },
+  "mde_percentage_points": {
+    "discordance=0.1, icc=0.05": 2.47,
+    "discordance=0.1, icc=0.1": 2.73,
+    "discordance=0.2, icc=0.05": 3.49,
+    "discordance=0.2, icc=0.1": 3.87
+  }
+}

@@ -1,0 +1,43 @@
+Case,Writer,Story,Writer's label,Neutral persona,Mismatched,Matched,Full persona,Length-matched
+Fixed by matching,Australia,Having my luggage checked at Customs.,fear,invalid ✗,disgust ✗,fear ✓,fear ✓,fear ✓
+Fixed by matching,Austria,When I had slept with a boy for the first time I felt…,shame,invalid ✗,invalid ✗,shame ✓,shame ✓,invalid ✗
+Fixed by matching,Brazil,"When I knew that a person who I didn't like, had about me…",disgust,disgust ✓,shame ✗,disgust ✓,disgust ✓,disgust ✓
+Fixed by matching,Bulgaria,At a weakness on my part.,shame,shame ✓,guilt ✗,shame ✓,shame ✓,shame ✓
+Fixed by matching,China,Saw the film about Eight Nations Army conquering Beijing.,shame,invalid ✗,disgust ✗,shame ✓,shame ✓,shame ✓
+Fixed by matching,Finland,"I ""picked up"" a girl and I thought that I had misused my…",guilt,invalid ✗,invalid ✗,guilt ✓,guilt ✓,invalid ✗
+Fixed by matching,India,When India first won the world cup cricket tournament.,joy,invalid ✗,invalid ✗,joy ✓,joy ✓,joy ✓
+Fixed by matching,Malawi,I fell off a bike in the presence of a lot of people.,shame,fear ✗,fear ✗,shame ✓,fear ✗,fear ✗
+Fixed by matching,New Zealand,When boyfriend could not stand up to his mother or for…,sadness,sadness ✓,shame ✗,sadness ✓,sadness ✓,sadness ✓
+Fixed by matching,Spain,My family told me to leave if I was not willing to accept…,anger,shame ✗,shame ✗,anger ✓,anger ✓,anger ✓
+Fixed by matching,Sweden,When I read racist slogans on the walls.,disgust,disgust ✓,anger ✗,disgust ✓,disgust ✓,anger ✗
+Fixed by matching,Zambia,When a friend of mine was trying to make a fool out of me.,anger,shame ✗,shame ✗,anger ✓,shame ✗,anger ✓
+Fixed by matching,the Netherlands,I cried for 3 hours because I felt very miserable. Then I…,shame,shame ✓,sadness ✗,shame ✓,shame ✓,shame ✓
+Fixed by matching,the United States,"The night of a high school dance, I went partying and…",guilt,guilt ✓,fear ✗,guilt ✓,guilt ✓,guilt ✓
+Broken by matching,Australia,I work part-time as a shop-assistant and a customer spoke…,disgust,disgust ✓,disgust ✓,anger ✗,disgust ✓,anger ✗
+Broken by matching,Austria,When I got indecent offers.,disgust,shame ✗,disgust ✓,shame ✗,shame ✗,shame ✗
+Broken by matching,Brazil,When I used to go to my chief asking about any doubt about…,anger,sadness ✗,anger ✓,sadness ✗,shame ✗,sadness ✗
+Broken by matching,Bulgaria,Betraying someone's trust.,guilt,guilt ✓,guilt ✓,shame ✗,guilt ✓,shame ✗
+Broken by matching,China,Saw two Canadian students boasting about how rich they are…,disgust,disgust ✓,disgust ✓,anger ✗,anger ✗,anger ✗
+Broken by matching,Finland,"In a film, there was an episode where they used a chain saw…",disgust,disgust ✓,disgust ✓,fear ✗,fear ✗,fear ✗
+Broken by matching,India,Before the declaration of the S.S.C results.,fear,sadness ✗,fear ✓,sadness ✗,sadness ✗,fear ✓
+Broken by matching,Malawi,I was at a boarding school during my primary school days. I…,guilt,guilt ✓,guilt ✓,shame ✗,shame ✗,shame ✗
+Broken by matching,New Zealand,When I went to explain to a lecturer whom I liked that the…,shame,shame ✓,shame ✓,guilt ✗,guilt ✗,guilt ✗
+Broken by matching,Spain,When I see pornographic films.,disgust,invalid ✗,disgust ✓,invalid ✗,invalid ✗,invalid ✗
+Broken by matching,Sweden,When my mother interfered in my life.,anger,anger ✓,anger ✓,sadness ✗,anger ✓,anger ✓
+Broken by matching,Zambia,When a boy who was drunk came into my room and misbehaved…,anger,shame ✗,anger ✓,disgust ✗,anger ✓,anger ✓
+Broken by matching,the Netherlands,When I went to a disco with a friend I started behaving…,shame,shame ✓,shame ✓,guilt ✗,guilt ✗,guilt ✗
+Broken by matching,the United States,This monday I took a Math 1BS test and flunked for the…,sadness,shame ✗,sadness ✓,shame ✗,shame ✗,shame ✗
+Same answer,Australia,Finding that a subordinate at work was still not willing to…,anger,anger ✓,anger ✓,anger ✓,anger ✓,anger ✓
+Same answer,Austria,When I entered the dissecting room for the first time. I…,disgust,disgust ✓,disgust ✓,disgust ✓,disgust ✓,disgust ✓
+Same answer,Brazil,"To have a friend who I didn't see for months, and under the…",joy,joy ✓,joy ✓,joy ✓,joy ✓,joy ✓
+Same answer,Bulgaria,For the girl who halped me go on living and made me happy -…,sadness,sadness ✓,sadness ✓,sadness ✓,sadness ✓,sadness ✓
+Same answer,China,Falling in love.,joy,joy ✓,joy ✓,joy ✓,joy ✓,joy ✓
+Same answer,Finland,"My grandfather died, I went to the mortuary and saw the…",sadness,sadness ✓,sadness ✓,sadness ✓,sadness ✓,sadness ✓
+Same answer,India,I was travelling from Delhi to Bombay. I had booked a seat…,anger,anger ✓,anger ✓,anger ✓,anger ✓,anger ✓
+Same answer,Malawi,I wore a dirty dress a certain day I was going to town I…,shame,shame ✓,shame ✓,shame ✓,shame ✓,shame ✓
+Same answer,New Zealand,"When during a social evening with my father, brother,…",anger,anger ✓,anger ✓,anger ✓,anger ✓,anger ✓
+Same answer,Spain,"The person whom I liked most left me for a friend of mine,…",sadness,sadness ✓,sadness ✓,sadness ✓,sadness ✓,sadness ✓
+Same answer,Sweden,After my girl and I talked things over our relationship…,joy,joy ✓,joy ✓,joy ✓,joy ✓,joy ✓
+Same answer,Zambia,My elder sister scolded me in front of my younger sisters…,sadness,sadness ✓,sadness ✓,sadness ✓,sadness ✓,sadness ✓
+Same answer,the Netherlands,A piece of work was marked as bad by the teachers I and…,disgust,disgust ✓,disgust ✓,disgust ✓,disgust ✓,disgust ✓
+Same answer,the United States,When I was about 17 years old and I stole some pens from a…,guilt,guilt ✓,guilt ✓,guilt ✓,guilt ✓,guilt ✓
